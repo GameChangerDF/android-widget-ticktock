@@ -303,7 +303,9 @@ public class TickTockView extends View {
         mStartTime = null;
         mEndTime = null;
     }
-
+    
+    // FIT TEXT HERE:
+    
     private void fitText(CharSequence text) {
         if (TextUtils.isEmpty(text)) {
             return;
